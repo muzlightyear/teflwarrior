@@ -6,9 +6,11 @@ html {
 body {
 	border: 0px;
 	margin: 2px;
-	background: #517185;
+	/*background: #517185;*/
+	background: radial-gradient(#517185,#8DD3FF);
 }
 
+/*Heading*/
 h1 {
 	display: flex;
 	justify-content: center;
@@ -20,62 +22,63 @@ h1 {
 	border-color: black;
 }
 
+/*Multiple choice container*/
 .options {
 	display: flex;
 	font-size: 5em;
 	gap: 20px;
 	justify-content: left;
-	background: linear-gradient(to right, rgb(55, 25, 101), rgb(24, 56, 71));;
-	color: white;
+	border: solid 4px;	
+	background: #8DD3FF;
+	border-color: #F1F730;
+	padding: 10px;
 }
 
+/*Multiple choice dropdown */
 select {
 	font-family: "Trirong", serif;
 	position: absolute;
 	font-size: 1em;
-	background: #ECEA39 ;
+	background:#8CEF5E ;
 	color: black;
+
 }
 
+/*Randomize button container*/
 #buttonDiv {
 	display: flex;
 	justify-content: center;
 }
 
+/*Randomize button*/
 button {
 	font-family: "Trirong", serif;
 	font-size: 2.5em;
-	background: linear-gradient(to left, #E7F776 , #76F7E7 );
+	background: radial-gradient(#E7F776 , #76F7E7);
 	color: black;
 }
+
 
 #result {
 	font-family: "Trirong", serif;
 	display: flex;
 	margin-left: 600px;
-	/*text-shadow: 0 0 3px #FF0000, 0 0 5px #17FF00;*/
+	text-shadow:  2px 2px #F1F730 ;
 }
 
 
-a:link {
-	color: #C5E9FF;
-}
-
-a:visited{
-	color: #C5E9FF;
-}
-
+/*WOTW Title Container*/
 #WOTW {
 	display: table;
 	justify-content: center;
 	text-align: center;
 	margin: 0 auto;
-	margin-top: 150px;
+	margin-top: 120px;
 	font-size: 2.5em;
 	width: 500px;
 	position: static;
 }
-
+/*WOTW Title*/
 span {
 	border: solid 4px;	
 	border-color: black;
@@ -83,8 +86,9 @@ span {
 	font-family: "Trirong", serif;
 	color: #27506A;
 	margin: 20px;
+	text-shadow:  1px 1px #FFFFFF ;
 }
-
+/*WOTW container*/
 #wordsOfTheWeek {
 	text-align: center;
 	/*display: inline-flex;*/
@@ -97,16 +101,37 @@ span {
 	margin-right: auto;
 	position: static;
 }
-
+/*WOTW*/
 p {
+	text-shadow:  1px 1px #FFFFFF ;
 	background: #8DD3FF;
 	padding: 0px;
 	font-family: "Trirong", serif;
 	color: #27506A ;
-	text-shadow: 0 0 3px #6D0500 , 0 0 5px white;
 	border: solid 4px;
-	border-color: black;
 	margin: 20px;
+}
+
+/*Difficulty borders*/
+#newWord1 {
+	border-color: #8AF730;
+}
+#newWord2 {
+	border-color: #FFFB00;
+}
+#newWord3 {
+	border-color: #6400FF;
+}
+#newWord4 {
+	border-color: #F93A2A;
+}
+
+a:link {
+	color: #C5E9FF;
+}
+
+a:visited{
+	color: #C5E9FF;
 }
 
 footer {

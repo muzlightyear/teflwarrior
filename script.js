@@ -29,7 +29,8 @@ const playArray = ["Hangman",
 "Bamboozle",
 "Two truths one lie",
 "Charades",
-"If...so conditionals"];
+"If...so conditionals",
+"Gap fill"];
 
 const drawArray = ["Your favourite animal",
 "A food you like",
