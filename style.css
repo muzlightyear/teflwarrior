@@ -14,8 +14,8 @@ h1 {
 	font-family: Arial, sans-serif;
 	display: flex;
 	justify-content: center;
-	color: #27506A;
-	opacity: 0.8;
+	color: #105E90;
+	text-shadow:1px 1px white;
 }
 
 #topBar {	
@@ -35,7 +35,6 @@ h1 {
 	justify-content: left;
 	border-color: black;
 	border-radius: 20px;
-	padding: 0 1em;
 	max-width: 100%;
 	max-height: 100%;
 }
@@ -52,18 +51,18 @@ select {
 
 #resultContainer {
 	display: flex;
-	justify-content: right;
-	margin-right: auto;
+	justify-content: center;
+	/* margin-right: auto; */
 	margin-left: auto;
+	background:#8DD3FF;
 }
 
 #result {
+	display:flex;
 	font-family: Arial, sans-serif;
-	color: #DCFFBF;
+	color: black;
 	font-size: 4rem;
 	overflow: auto;
-	margin-right: auto;
-	margin-left: auto;
 }
 
 
@@ -78,14 +77,18 @@ button {
 	font-family: Arial, sans-serif;
 	/*margin-top: 120px;*/
 	font-size: 4em;
-	background: radial-gradient(#E7F776 , #76F7E7);
-	border-radius: 50%;
+	background: #BEBEBE;
+	border-radius: 10px;
 	color: black;
 	width: 500px;
 	height: 100px;
 	overflow: auto;
 }
 
+#randomizeButton:hover {
+cursor:pointer;
+background: #888888;
+}
 
 
 /*WOTW Title Container*/
