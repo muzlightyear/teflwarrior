@@ -1,0 +1,17 @@
+.navBar {
+ padding-bottom: 2.5em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.links {
+    text-align: center;
+    color:white;
+}
+
+a {
+    font-size: 2em;
+    padding:2em;
+}
